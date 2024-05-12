@@ -1,0 +1,70 @@
+GameSettings
+============
+
+System for defining game-specific settings and exposing them to the UI.
+
+
+Files
+-----
+
+.. code-block: txt
+    Code
+        Private\GameSetting.cpp
+        Private\GameSettingAction.cpp
+        Private\GameSettingCollection.cpp
+        Private\GameSettingFilterState.cpp
+        Private\GameSettingsModule.cpp
+        Private\GameSettingValue.cpp
+        Private\GameSettingValueDiscrete.cpp
+        Private\GameSettingValueDiscreteDynamic.cpp
+        Private\GameSettingValueScalar.cpp
+        Private\GameSettingValueScalarDynamic.cpp
+        Private\DataSource\GameSettingDataSourceDynamic.cpp
+        Private\EditCondition\WhenPlatformHasTrait.cpp
+        Private\EditCondition\WhenPlayingAsPrimaryPlayer.cpp
+        Private\Registry\GameSettingRegistry.cpp
+        Private\Registry\GameSettingRegistryChangeTracker.cpp
+        Private\Widgets\GameSettingDetailExtension.cpp
+        Private\Widgets\GameSettingDetailView.cpp
+        Private\Widgets\GameSettingListEntry.cpp
+        Private\Widgets\GameSettingListView.cpp
+        Private\Widgets\GameSettingPanel.cpp
+        Private\Widgets\GameSettingScreen.cpp
+        Private\Widgets\GameSettingVisualData.cpp
+        Private\Widgets\IGameSettingActionInterface.cpp
+        Private\Widgets\Misc\GameSettingPressAnyKey.cpp
+        Private\Widgets\Misc\GameSettingRotator.cpp
+        Private\Widgets\Misc\KeyAlreadyBoundWarning.cpp
+        Private\Widgets\Responsive\GameResponsivePanel.cpp
+        Private\Widgets\Responsive\GameResponsivePanel.h
+        Private\Widgets\Responsive\GameResponsivePanelSlot.cpp
+        Private\Widgets\Responsive\GameResponsivePanelSlot.h
+        Private\Widgets\Responsive\SGameResponsivePanel.cpp
+        Private\Widgets\Responsive\SGameResponsivePanel.h
+        Public\GameSetting.h
+        Public\GameSettingAction.h
+        Public\GameSettingCollection.h
+        Public\GameSettingFilterState.h
+        Public\GameSettingRegistry.h
+        Public\GameSettingRegistryChangeTracker.h
+        Public\GameSettingValue.h
+        Public\GameSettingValueDiscrete.h
+        Public\GameSettingValueDiscreteDynamic.h
+        Public\GameSettingValueScalar.h
+        Public\GameSettingValueScalarDynamic.h
+        Public\DataSource\GameSettingDataSource.h
+        Public\DataSource\GameSettingDataSourceDynamic.h
+        Public\EditCondition\WhenCondition.h
+        Public\EditCondition\WhenPlatformHasTrait.h
+        Public\EditCondition\WhenPlayingAsPrimaryPlayer.h
+        Public\Widgets\GameSettingDetailExtension.h
+        Public\Widgets\GameSettingDetailView.h
+        Public\Widgets\GameSettingListEntry.h
+        Public\Widgets\GameSettingListView.h
+        Public\Widgets\GameSettingPanel.h
+        Public\Widgets\GameSettingScreen.h
+        Public\Widgets\GameSettingVisualData.h
+        Public\Widgets\IGameSettingActionInterface.h
+        Public\Widgets\Misc\GameSettingPressAnyKey.h
+        Public\Widgets\Misc\GameSettingRotator.h
+        Public\Widgets\Misc\KeyAlreadyBoundWarning.h
